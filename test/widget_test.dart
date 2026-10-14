@@ -11,7 +11,7 @@ void main() {
 
     await tester.pumpWidget(const FlutterWebApp());
 
-    expect(find.text('Flutter Web Application'), findsOneWidget);
+    expect(find.text('Flutter Web Application - Edwin Paul'), findsOneWidget);
     expect(find.text('Mobile Web Layout'), findsOneWidget);
     expect(find.text('Welcome'), findsOneWidget);
 
@@ -29,7 +29,7 @@ void main() {
 
     await tester.pumpWidget(const FlutterWebApp());
 
-    expect(find.text('Flutter Web Application'), findsOneWidget);
+    expect(find.text('Flutter Web Application - Edwin Paul'), findsOneWidget);
     expect(find.text('Desktop Web Layout'), findsOneWidget);
     expect(find.text('Welcome'), findsOneWidget);
   });

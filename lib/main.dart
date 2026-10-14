@@ -43,7 +43,7 @@ class _ResponsiveWebHomePageState extends State<ResponsiveWebHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Web Application'),
+        title: const Text('Flutter Web Application - Edwin Paul'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         actions: [
           IconButton(
